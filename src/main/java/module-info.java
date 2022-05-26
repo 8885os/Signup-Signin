@@ -4,6 +4,6 @@ module com.example.airlineresrvation {
 
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.airlinereservation to javafx.fxml;
-    exports com.example.airlinereservation;
+    opens com.example.SigninandSignup to javafx.fxml;
+    exports com.example.SigninandSignup;
 }

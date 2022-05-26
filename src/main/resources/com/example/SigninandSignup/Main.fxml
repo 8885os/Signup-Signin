@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="main-parent" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.airlinereservation.AirlineController">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="main-parent" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.SigninandSignup.SignController">
    <children>
       <Pane layoutX="277.0" layoutY="61.0" prefHeight="515.0" prefWidth="347.0" styleClass="pane" stylesheets="@styles.css">
          <children>
