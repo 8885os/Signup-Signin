@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" styleClass="main-parent" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.airlinereservation.AirlineController">
+   <children>
+      <Pane layoutX="232.0" layoutY="68.0" prefHeight="465.0" prefWidth="437.0" styleClass="signup" stylesheets="@styles.css">
+         <children>
+            <Button layoutX="81.0" layoutY="393.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="275.0" text="Sign In" />
+            <TextField layoutX="132.0" layoutY="156.0" prefHeight="25.0" prefWidth="275.0" />
+            <Text layoutX="70.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="56.13671875" />
+            <Text layoutX="34.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email/Username:" wrappingWidth="93.13671875" />
+            <PasswordField layoutX="132.0" layoutY="208.0" prefHeight="25.0" prefWidth="275.0" />
+            <Button layoutX="149.0" layoutY="376.0" mnemonicParsing="false" onAction="#signup_scene" prefHeight="17.0" prefWidth="139.0" styleClass="trans-btn-white-border" stylesheets="@styles.css" text="No Account? Register Here" textFill="#405deb" underline="true">
+               <font>
+                  <Font name="SansSerif Regular" size="10.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+
+.main-parent{
+    -fx-background-color: transparent;
+    -fx-background-image: url("images/plane.jpg");
+    -fx-background-size: 100% 100%;
+}
+
+.pane {
+    -fx-background-color: rgb(200, 200, 200);
+    -fx-background-radius: 8px;
+    -fx-border-color: rgb(100, 100, 100);
+    -fx-border-radius: 5px;
+    -fx-border-width: 3px;
+}
+
+.button {
+   -fx-alignment: center;
+   -fx-background-color: rgb(100, 170, 210);
+   -fx-border-radius: 100px;
+}
+.button:hover{
+    -fx-background-color: rgb(120, 190, 190);
+}
+.button:pressed{
+    -fx-background-color: rgb(150, 210, 230);
+    -fx-background-radius:10px;
+}
+
+.trans-btn-white-border{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+}
+.trans-btn-white-border:hover{
+    -fx-background-color: transparent;
+    -fx-background-radius: 5px;
+    -fx-text-fill: #7e96ff;
+}
+.signup{
+    -fx-background-color: rgb(200, 200, 200);
+    -fx-background-radius: 8px;
+    -fx-border-color: rgb(100, 100, 100);
+    -fx-border-radius: 5px;
+    -fx-border-width: 3px;
+}
+.submit{
+    -fx-background-color: rgb(100, 141, 209);
+    -fx-background-radius:8px;
+    -fx-border-color: rgb(204, 204, 204);
+    -fx-border-radius: 5px;
+    -fx-border-width: 3px;
+}
+.submit:hover{
+    -fx-background-color: rgb(120, 190, 190);
+}
+.submit:pressed{
+    -fx-background-color: rgb(150, 210, 230);
+    -fx-background-radius:30px;
+}
+
